@@ -1,4 +1,4 @@
 module.exports = {
-  dbUrl: '',
+  dbUrl: process.env.MONGO_CONNECTION_STRING,
   apiKeys: []
 };
